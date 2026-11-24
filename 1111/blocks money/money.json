@@ -1,0 +1,78 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"texture_size": [256, 256],
+	"textures": {
+		"0": "picture_bbf89222e3184fa6bb965bdaa82723a5",
+		"particle": "picture_bbf89222e3184fa6bb965bdaa82723a5"
+	},
+	"elements": [
+		{
+			"name": "Money1",
+			"from": [2, 0, 2],
+			"to": [14, 8, 14],
+			"faces": {
+				"north": {"uv": [0, 0, 6, 4.00031], "texture": "#0"},
+				"east": {"uv": [6, 0, 12, 4], "texture": "#0"},
+				"south": {"uv": [0, 0, 6, 4.00031], "texture": "#0"},
+				"west": {"uv": [6, 0, 12, 4], "texture": "#0"},
+				"up": {"uv": [0, 8.188, 6.0615, 15.07192], "texture": "#0"},
+				"down": {"uv": [0, 8.09112, 5.999, 15.00837], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Money5",
+			"from": [14.5, 0, 5.5],
+			"to": [15.5, 3, 11.5],
+			"shade_direction_override": "up",
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [15, 1, 8]},
+			"faces": {
+				"north": {"uv": [9, 8, 9.5, 9.5], "texture": "#0"},
+				"east": {"uv": [6.01042, 8.13542, 9, 9.85467], "texture": "#0"},
+				"south": {"uv": [9.03125, 8.29167, 9.53125, 9.79167], "texture": "#0"},
+				"west": {"uv": [6.05208, 8.39583, 9.05208, 9.89633], "texture": "#0"},
+				"up": {"uv": [5.98958, 9.90625, 8.98958, 10.40625], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [6.03125, 9.92708, 9.03125, 10.42708], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"name": "Money7",
+			"from": [5, 8, 3],
+			"to": [8, 9, 9],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [9, 8, 9.5, 9.5], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [6, 9.5, 9, 10], "texture": "#0"},
+				"south": {"uv": [8.98958, 8.32292, 9.48958, 9.82292], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [6.03125, 9.875, 9.03125, 10.375], "texture": "#0"},
+				"up": {"uv": [3.15625, 8.26042, 6.15625, 9.76042], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [7.13542, 7.34375, 10.13542, 8.84375], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Money6",
+			"from": [10, 8, 6],
+			"to": [13, 9, 12],
+			"shade_direction_override": "up",
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [9, 8, 9.5, 9.5], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [6.07292, 9.92708, 9.07292, 10.42708], "texture": "#0"},
+				"south": {"uv": [9.04167, 8.09375, 9.54167, 9.82292], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [6, 9.96875, 9, 10.46875], "texture": "#0"},
+				"up": {"uv": [5.97917, 8.23958, 9.04167, 9.86458], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [8.95833, 8.13542, 6.05104, 9.88542], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "money",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [0, 1, 2, 3]
+		}
+	]
+}
