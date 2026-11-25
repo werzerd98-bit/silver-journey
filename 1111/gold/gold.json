@@ -1,0 +1,24 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "1795560526041-7bdf0ebb-00e3-4912-88e7-ec782c29e968-01a20fbe-c38c-75af-a6fe-26d5b11253ad",
+		"particle": "1795560526041-7bdf0ebb-00e3-4912-88e7-ec782c29e968-01a20fbe-c38c-75af-a6fe-26d5b11253ad"
+	},
+	"elements": [
+		{
+			"name": "GoldIngot",
+			"from": [6.25, 7, 5.5],
+			"to": [9.25, 8, 11.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, 0, 4]},
+			"faces": {
+				"north": {"uv": [14.00781, 0, 16, 5.23438], "texture": "#0"},
+				"east": {"uv": [12.27344, 8.67969, 0, 5.96875], "texture": "#0"},
+				"south": {"uv": [14, 5, 16, 0], "texture": "#0"},
+				"west": {"uv": [12.60938, 8.65625, 0, 5.96094], "texture": "#0"},
+				"up": {"uv": [0, 0, 12.46875, 5.375], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 14, 12.5, 9], "texture": "#0"}
+			}
+		}
+	]
+}

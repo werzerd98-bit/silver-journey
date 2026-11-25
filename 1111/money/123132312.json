@@ -1,0 +1,24 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "money",
+		"particle": "money"
+	},
+	"elements": [
+		{
+			"name": "GoldIngot",
+			"from": [6.25, 7, 5.5],
+			"to": [9.25, 8, 11.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, 0, 4]},
+			"faces": {
+				"north": {"uv": [9.49688, 8.11458, 9.07083, 9.81042], "texture": "#0"},
+				"east": {"uv": [6.0625, 10.36458, 9.02083, 9.90625], "texture": "#0"},
+				"south": {"uv": [9.03437, 9.875, 9.48958, 8.09375], "texture": "#0"},
+				"west": {"uv": [6.01042, 10.39583, 9.03125, 9.91667], "texture": "#0"},
+				"up": {"uv": [6.02813, 8.08958, 9.01771, 9.86875], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [4.0375, 11.05833, 6.20729, 13.17083], "texture": "#0"}
+			}
+		}
+	]
+}
